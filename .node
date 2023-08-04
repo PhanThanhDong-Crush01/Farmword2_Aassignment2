@@ -1,0 +1,87 @@
+{
+    "products": [
+        {
+            "name": "THE MINOTAUR ALISTAR",
+            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Alistar_0.jpg",
+            "price": "10000",
+            "desc": "Always a mighty warrior with a fearsome reputation, Alistar seeks revenge for the death of his clan at the hands of the Noxian empire. Though he was enslaved and forced into the life of a gladiator, his unbreakable will was what kept him from truly",
+            "categoryId": 4,
+            "id": 1
+        },
+        {
+            "name": "THE HEART FRELJORD BRAUM",
+            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Braum_0.jpg",
+            "price": "10000",
+            "desc": "Blessed with massive biceps and an even bigger heart, Braum is a beloved hero of the Freljord. Every mead hall north of Frostheld toasts his legendary strength, said to have felled a forest of oaks in a single night, and punched an entire mountain into",
+            "categoryId": 4,
+            "id": 2
+        },
+        {
+            "name": "THE RIGHTEOUS KAYLE",
+            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Kayle_0.jpg",
+            "price": "10000",
+            "desc": "Born to a Targonian Aspect at the height of the Rune Wars, Kayle honored her mother's legacy by fighting for justice on wings of divine flame. She and her twin sister Morgana were the protectors of Demacia for many years—until Kayle became disillusioned",
+            "categoryId": 4,
+            "id": 3
+        },
+        {
+            "name": "THE DARKIN BLADE AATROX",
+            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_0.jpg",
+            "price": "10000",
+            "desc": "Once honored defenders of Shurima against the Void, Aatrox and his brethren would eventually become an even greater threat to Runeterra, and were defeated only by cunning mortal sorcery. But after centuries of imprisonment, Aatrox was the first to find",
+            "categoryId": 1,
+            "id": 4
+        },
+        {
+            "name": "THE SPIDER QUEEN ELISE",
+            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Elise_0.jpg",
+            "price": "10000",
+            "desc": "Elise is a deadly predator who dwells in a shuttered, lightless palace, deep within the oldest city of Noxus. Once mortal, she was the mistress of a powerful house, but the bite of a vile demigod transformed her into something beautiful, yet utterly... ",
+            "categoryId": 1,
+            "id": 5
+        },
+        {
+            "name": "THE FROST ARCHER ASHE",
+            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ashe_0.jpg",
+            "price": "10000",
+            "desc": "Iceborn warmother of the Avarosan tribe, Ashe commands the most populous horde in the north. Stoic, intelligent, and idealistic, yet uncomfortable with her role as leader, she taps into the ancestral magics of her lineage to wield a bow of True Ice",
+            "categoryId": 3,
+            "id": 6
+        },
+        {
+            "name": "THE LOOSE CANNON JINX",
+            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Jinx_0.jpg",
+            "price": "10000",
+            "desc": "A manic and impulsive criminal from Zaun, Jinx lives to wreak havoc without care for the consequences. With an arsenal of deadly weapons, she unleashes the loudest blasts and brightest explosions to leave a trail of mayhem and panic in her wake. Jinx",
+            "categoryId": 3,
+            "id": 7
+        },
+        {
+            "name": "THE COLOSSUS GALIO",
+            "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Galio_0.jpg",
+            "price": "10000",
+            "desc": "Outside the gleaming city of Demacia, the stone colossus Galio keeps vigilant watch. Built as a bulwark against enemy mages, he often stands motionless for decades until the presence of powerful magic stirs him to life. Once activated, Galio makes the.",
+            "categoryId": 2,
+            "id": 8
+        }
+    ],
+    "categories": [
+        {
+            "name": "FIGHTERS",
+            "id": 1
+        },
+        {
+            "name": "MAGES",
+            "id": 2
+        },
+        {
+            "name": "MARKSMEN",
+            "id": 3
+        },
+        {
+            "name": "SUPPORTS",
+            "id": 4
+        }
+    ],
+    "user": []
+}

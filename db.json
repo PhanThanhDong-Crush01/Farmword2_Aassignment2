@@ -1,0 +1,39 @@
+{
+  "products": [
+    {
+      "name": "THE HEART FRELJORD BRAUM",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Braum_0.jpg",
+      "price": "10000",
+      "desc": "Blessed with massive biceps and an even bigger heart, Braum is a beloved hero of the Freljord. Every mead hall north of Frostheld toasts his legendary strength, said to have felled a forest of oaks in a single night, and punched an entire mountain into",
+      "categoryId": 7,
+      "id": 2
+    },
+    {
+      "name": "THE RIGHTEOUS KAYLE",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Kayle_0.jpg",
+      "price": "10000",
+      "desc": "Born to a Targonian Aspect at the height of the Rune Wars, Kayle honored her mother's legacy by fighting for justice on wings of divine flame. She and her twin sister Morgana were the protectors of Demacia for many years—until Kayle became disillusioned",
+      "categoryId": 7,
+      "id": 3
+    },
+    {
+      "name": "THE SPIDER QUEEN ELISE",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Elise_0.jpg",
+      "price": "10000",
+      "desc": "Elise is a deadly predator who dwells in a shuttered, lightless palace, deep within the oldest city of Noxus. Once mortal, she was the mistress of a powerful house, but the bite of a vile demigod transformed her into something beautiful, yet utterly... ",
+      "categoryId": 1,
+      "id": 5
+    }
+  ],
+  "categories": [
+    {
+      "name": "FIGHTERS",
+      "id": 1
+    },
+    {
+      "name": "Other",
+      "id": 7
+    }
+  ],
+  "user": []
+}
