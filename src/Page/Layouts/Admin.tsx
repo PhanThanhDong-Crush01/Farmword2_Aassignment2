@@ -1,3 +1,4 @@
+import { AiOutlineHome } from "react-icons/ai";
 import { useState } from "react";
 import {
   MenuFoldOutlined,
@@ -45,6 +46,9 @@ export const LayoutAdmin = () => {
           {collapsed ? <MenuUnfoldOutlined /> : <MenuFoldOutlined />}
         </Button>
         <Menu theme="dark" mode="inline" defaultSelectedKeys={["2"]}>
+          <Menu.Item key="1" icon={<AiOutlineHome />}>
+            <Link to={"/"}>Home</Link>
+          </Menu.Item>
           <Menu.Item key="2" icon={<PieChartOutlined />}>
             <Link to={"/admin"}>Dashboard</Link>
           </Menu.Item>

@@ -1,26 +1,65 @@
-import { Spin, Watermark } from "antd";
+import { MinusOutlined, PlusOutlined } from "@ant-design/icons";
+import { Button, QRCode, Spin, Watermark } from "antd";
 import { Content } from "antd/es/layout/layout";
-import React from "react";
+import React, { useState } from "react";
 
 export const HomePage = () => {
-    return (
-        <React.Fragment>
-            <Content style={{
-                textAlign: 'center',
-                minHeight: 120,
-                lineHeight: '120px',
-                color: '#fff',
-            }}>
-                <Spin tip="Loading...">
-                    <Watermark
-                        height={30}
-                        width={130}
-                        image="https://mdn.alipayobjects.com/huamei_7uahnr/afts/img/A*lkAoRbywo0oAAAAAAAAAAAAADrJ8AQ/original"
-                    >
-                        <div style={{ height: 570 }} />
-                    </Watermark>
-                </Spin>
-            </Content>
-        </React.Fragment>
-    )
-}
+  const [size, setSize] = useState<number>(160);
+
+  const increase = () => {
+    setSize((prevSize) => {
+      const newSize = prevSize + 10;
+      if (newSize > 300) {
+        return 300;
+      }
+      return newSize;
+    });
+  };
+
+  const decline = () => {
+    setSize((prevSize) => {
+      const newSize = prevSize - 10;
+      if (newSize < 48) {
+        return 48;
+      }
+      return newSize;
+    });
+  };
+  return (
+    <React.Fragment>
+      <Content
+        style={{
+          textAlign: "center",
+          minHeight: 120,
+          lineHeight: "120px",
+          color: "#fff",
+        }}
+      >
+        <Button.Group style={{ marginBottom: 16 }}>
+          <Button
+            onClick={decline}
+            disabled={size <= 48}
+            icon={<MinusOutlined />}
+          >
+            Smaller
+          </Button>
+          <Button
+            onClick={increase}
+            disabled={size >= 300}
+            icon={<PlusOutlined />}
+          >
+            Larger
+          </Button>
+        </Button.Group>
+        <QRCode
+          style={{ margin: "0 auto" }}
+          errorLevel="H"
+          size={size}
+          iconSize={size}
+          value="../../../public/mbbank.jpg"
+          icon="../../../public/mbbank.jpg"
+        />
+      </Content>
+    </React.Fragment>
+  );
+};
